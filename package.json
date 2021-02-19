@@ -2,17 +2,20 @@
   "name": "gear",
   "version": "0.1.0",
   "private": true,
+  "main": "src/gear/index.ts",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.1",
     "@types/jest": "^26.0.20",
-    "@types/node": "^12.20.1",
+    "@types/node": "^12.20.3",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
+    "color": "^3.1.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
+    "styled-components": "^5.2.1",
     "typescript": "^4.1.5",
     "web-vitals": "^1.1.0"
   },
@@ -39,5 +42,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/color": "^3.0.1",
+    "@types/lodash": "^4.14.168",
+    "@types/styled-components": "^5.1.7"
   }
 }
